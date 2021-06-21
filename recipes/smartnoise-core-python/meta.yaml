@@ -21,12 +21,14 @@ build:
 
 requirements:
   host:
-    - python  >=3.6
     - pip
-  run:
     - python  >=3.6
-    - protobuf
-    - numpy
+  run:
+    - numpy  >=1.18.2
+    - pandas  >=1.0.3
+    - protobuf  >=3.11.3
+    - python  >=3.6
+    - setuptools  >=41.4.0
 
 test:
   imports:
